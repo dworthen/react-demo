@@ -6,9 +6,10 @@ import Header from './Header';
 export default class Layout extends React.Component {
 
   render() {
+    const title = "Hello Derek";
     return (  
       <div>
-        <Header />
+        <Header title={title} />
         <Footer />
       </div>
     );
