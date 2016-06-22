@@ -19,7 +19,7 @@ export default class Layout extends React.Component {
     return (  
       <div>
         <h1>Layout</h1>
-        <Link to="/archives">Archives</Link>&nbsp;
+        <Link to="/archives" activeClassName="test">Archives</Link>&nbsp;
         <a href="" onClick={this.navigate.bind(this)}>Settings</a>        
         {this.props.children}
       </div>
