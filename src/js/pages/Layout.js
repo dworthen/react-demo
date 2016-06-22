@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, withRouter, browserHistory } from 'react-router';
+import { Link, withRouter, browserHistory, hashHistory } from 'react-router';
 import _ from 'lodash';
 
 import Footer from '../components/Footer';
